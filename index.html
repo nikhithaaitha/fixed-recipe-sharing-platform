@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Sharing Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .recipe {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    h1, h2 {
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Recipe Sharing Platform</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Recipes</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Welcome to our Recipe Sharing Platform!</h2>
+  <p>This platform is your one-stop destination for discovering and sharing delicious recipes from around the world.</p>
+
+  <div class="recipe">
+    <img src="recipe1.jpg" alt="Recipe 1">
+    <h3>Recipe Title 1</h3>
+    <p>Description of Recipe 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.</p>
+  </div>
+
+  <div class="recipe">
+    <img src="recipe2.jpg" alt="Recipe 2">
+    <h3>Recipe Title 2</h3>
+    <p>Description of Recipe 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.</p>
+  </div>
+
+  <div class="recipe">
+    <img src="recipe3.jpg" alt="Recipe 3">
+    <h3>Recipe Title 3</h3>
+    <p>Description of Recipe 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.</p>
+  </div>
+
+  <form>
+    <h2>Share Your Recipe</h2>
+    <label for="recipeTitle">Recipe Title:</label><br>
+    <input type="text" id="recipeTitle" name="recipeTitle"><br>
+    <label for="recipeDescription">Recipe Description:</label><br>
+    <textarea id="recipeDescription" name="recipeDescription" rows="4" cols="50"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2024 Recipe Sharing Platform. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
